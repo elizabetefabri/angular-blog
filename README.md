@@ -11,6 +11,6 @@
 
 ## 🔗Confira a finalização do site:
 
-[![site](https://img.shields.io/badge/Angular_Blog_-_DIO-ff8888?style=for-the-badge&logo=ko-fi&logoColor=white)]()
+[![site](https://img.shields.io/badge/Angular_Blog_-_DIO-ff8888?style=for-the-badge&logo=ko-fi&logoColor=white)](https://angular-blog-gray.vercel.app/)
 
 
