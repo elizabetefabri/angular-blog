@@ -1,0 +1,21 @@
+<div class="container__content">
+  <div class="content__cover">
+    <img src="{{ photoCover }}" alt="" srcset="">
+  </div>
+  <div class="content__details">
+    <div class="content__title">
+      <h1>{{ contentTitle }}</h1>
+      <hr />
+    </div>
+    <div class="content__description">
+      <a [routerLink]="['']">⬅ VOLTAR</a>
+      <p>{{ contentDescription }}</p>
+    </div>
+    <div class="content__github">
+      <a [routerLink]="['']">
+        <img src="../../../assets/images/icons/icons8-github-48.png" alt="">
+        Confira o projeto no GitHub
+      </a>
+    </div>
+  </div>
+</div>

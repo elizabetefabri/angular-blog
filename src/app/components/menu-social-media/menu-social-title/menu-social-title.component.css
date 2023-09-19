@@ -1,0 +1,21 @@
+.container__menu-title {
+  color: #282a36;
+}
+
+.container__menu-title > h1 {
+  margin: 2rem;
+  font-size: 3rem; /* Ajuste o tamanho da fonte conforme necessário */
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.container__menu-title > hr {
+  margin: 0.5rem 1rem; /* Ajuste a margem conforme necessário */
+}
+
+@media screen and (max-width:600px) {
+  .container__menu-title > h1{
+    font-size: 1rem;
+  }
+}

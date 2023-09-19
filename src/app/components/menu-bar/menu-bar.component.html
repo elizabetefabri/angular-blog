@@ -1,0 +1,36 @@
+<header>
+  <div class="container__menu-bar">
+    <ul>
+      <li>
+        <a
+          [routerLink]="['/']"
+          [routerLinkActive]="['activated']"
+          [routerLinkActiveOptions]="{exact:true}">
+          Início
+        </a>
+      </li>
+      <li>
+        <a
+          [routerLink]="['/about']"
+          [routerLinkActive]="['activated']">
+          Sobre mim
+        </a>
+      </li>
+      <li>
+        <a
+          [routerLink]="['/project']"
+          [routerLinkActive]="['activated']">
+          Projetos
+        </a>
+      </li>
+      <li>
+        <a
+          [routerLink]="['/contact']"
+          [routerLinkActive]="['activated']">
+          Contato
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
